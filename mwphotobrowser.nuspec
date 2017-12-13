@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Ricardo.MWPhotoBrowser.iOS</id>
+        <version>2.1.4</version>
+        <description>Xamarin Binding for MWPhotoBrowser iOS Library</description>
+        <authors>Branislav Havrila</authors>
+        <owners>ricardo.ch AG</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>MWPhotoBrowser iOS</title>
+        <releaseNotes>MWPhotoBrowser iOS Library v2.1.4</releaseNotes>
+        <summary>Xamarin Binding for MWPhotoBrowser Library with support for SDWebImage 4.2.2</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/ricardo-ch/xamarin-mwphotobrowser-ios/</projectUrl>
+        <copyright>Copyright (c) 2017 ricardo.ch AG</copyright>
+        <tags>Xamarin.iOS, MWPhotoBrowser</tags>
+        <dependencies>
+          <group targetFramework="Xamarin.iOS10">
+            <dependency id="Ricardo.SDWebImage.iOS" version="4.2.2" />
+            <dependency id="Ricardo.MBProgressHUD.iOS" version="1.1.0" />
+          </group>
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+      <file src="Ricardo.MWPhotoBrowser.iOS/bin/Release/Ricardo.MWPhotoBrowser.iOS.dll" target="lib/Xamarin.iOS10" />
+    </files>
+  </package>
